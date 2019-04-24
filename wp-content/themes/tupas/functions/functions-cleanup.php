@@ -101,7 +101,7 @@
 	 * Update the footer
 	 */
 	function remove_footer_admin () {
- 		echo "<a href='https://nothingatall.net/' target='_blank'>nothingatall</a>";
+ 		echo "Hammered together by <a href='https://nothingatall.net/' target='_blank'>nothingatall.net</a>";
 	}
 	add_filter('admin_footer_text', 'remove_footer_admin');
 
@@ -109,7 +109,6 @@
 	 * Update the login logo
 	 */
 	function update_logo() { 
-//		echo "<style type='text/css'> body.login div#login h1 a {width: 200px; background-size: 197px; background-image: url(".site_url()."/wp-content/uploads/2019/04/Anexsys-Logo_Rev.svg); padding-bottom: 30px;}</style>";
 	}
 	add_action('login_head', 'update_logo');
 

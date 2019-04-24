@@ -1,8 +1,8 @@
 {
-  "name": "anexsys",
+  "name": "tupas",
   "version": "1.0.0",
   "description": "",
-  "author": "FireCask",
+  "author": "R.Jones",
   "private": true,
   "devDependencies": {
     "gulp": "3.9.1",

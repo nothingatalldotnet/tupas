@@ -1,0 +1,8 @@
+[data-name="anexsys_sections"] .acf-flexible-content .layout .acf-fc-layout-handle {
+	background: #57ad75;
+	color: #fff;
+}
+
+.acf-repeater .acf-table>tbody>tr + tr td {
+	border-top: 2px solid #57ad75 !important;
+}
